@@ -1,4 +1,4 @@
-FROM pakled/base
+FROM alastair87/pakled
 ARG USER="pakled"
 USER root
 ADD thermite.sh /
