@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build . -t pakled/thermite:latest $@
+docker build . -t alastair87/pakled-thermite:latest $@

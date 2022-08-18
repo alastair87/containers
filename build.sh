@@ -5,9 +5,9 @@
 # ./thermite/build.sh $@
 
 cd base
-./build.sh
+./build.sh $@
 cd -
 
 cd thermite
-./build.sh
+./build.sh $@
 cd -
