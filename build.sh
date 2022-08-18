@@ -1,9 +1,13 @@
 #!/bin/sh
 
-pushd base
-build.sh --no-cache
-popd
+# /base/build.sh $@
 
-pushd pakled
-build.sh --no-cache
-popd
+# ./thermite/build.sh $@
+
+cd base
+./build.sh
+cd -
+
+cd thermite
+./build.sh
+cd -
