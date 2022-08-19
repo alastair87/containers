@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build . -t alastair87/pakled:latest $@
+docker build . -t alastair87/base:latest $@

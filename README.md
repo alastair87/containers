@@ -1,3 +1,3 @@
-# Pakled
+# Containers
 
-A tool for building 'fat' VM-like Docker images based on Ubuntu LTS with an opinionated shell config from alastair87.
+A library of Ubuntu LTS based containers with basic dev utilities and my shell config. For quickly spinning up a dev environment on an unfamiliar machine e.g. in WSL2, not server deployment.
