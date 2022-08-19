@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND="noninteractive"
-ARG USER="pakled"
+ARG USER="user"
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y wget curl vim nano git build-essential zsh sudo && \
