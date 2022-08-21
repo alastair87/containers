@@ -3,6 +3,7 @@ ENV DEBIAN_FRONTEND="noninteractive"
 ARG USER="user"
 RUN apt-get update && \
     apt-get upgrade -y && \
+    yes | unminimize && \
     apt-get install -y wget curl vim nano git build-essential zsh sudo && \
     apt-get clean
 RUN wget https://starship.rs/install.sh -O /tmp/install.sh && \
