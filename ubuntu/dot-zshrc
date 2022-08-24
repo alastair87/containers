@@ -6,6 +6,15 @@ antigen bundles <<EOBUNDLES
     zsh-users/zsh-syntax-highlighting
     zsh-users/zsh-completions
     zsh-users/zsh-autosuggestions
+    agkozak/zsh-z
+    fzf
+    git
+    gitfast
+    command-not-found
+    colored-man-pages
+    extract
+    cp
+    sudo
 EOBUNDLES
 
 antigen apply
@@ -17,3 +26,5 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 ZSH_HIGHLIGHT_STYLES[precommand]=fg=green
 ZSH_HIGHLIGHT_STYLES[autodirectory]=fg=green
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+
+alias bat=batcat

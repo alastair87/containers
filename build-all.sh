@@ -4,10 +4,14 @@
 
 # ./thermite/build.sh $@
 
-cd base
+cd ubuntu
 ./build.sh $@
 cd -
 
-cd thermite
+cd thermite-base
 ./build.sh $@
+cd -
+
+cd thermite-avr
+ ./build.sh $@
 cd -
