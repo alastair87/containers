@@ -1,4 +1,4 @@
-FROM alastair87/base
+FROM alastair87/ubuntu
 ARG USER="user"
 USER root
 RUN apt-get update && \
